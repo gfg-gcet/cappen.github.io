@@ -12,6 +12,9 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+#non{
+    overflow-x: hidden;
+}
 body::-webkit-scrollbar{
     display: none;
 }
