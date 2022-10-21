@@ -1,0 +1,103 @@
+@media screen  and (max-width:1200px){
+   .text-box{
+      font-size: 5rem;
+      line-height: 4rem;
+      display: flex; 
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+   }
+   .text-box h1{
+      font-size: 5rem;
+      line-height: 4rem;
+   }
+   .hero-footer{
+      flex-direction: column;
+      text-align: center;
+      width: 60%;
+      margin: auto;
+   }
+   .round{
+      display: none;
+   }
+   .project{
+      width: 70px;
+   }
+   .pro span{
+      font-size:3rem;
+   }
+   .about h1{
+      font-size: 4rem;
+   }
+  .nav-box .slide{
+      font-size: 3rem;
+   }
+   .link-c.active{
+      transform: scale(0);
+  }
+  .nav-box:hover .slide sup{
+   color:gray;
+}
+  .nav-box .slide:hover{
+   color: #000;
+  }
+  .nav-box .slide:hover::after{
+   top:0;
+}
+.hidde p{
+   font-size: 0.7rem;
+}
+.hidde h4{
+   font-size: 1rem;
+}
+.expertise{
+  width: 90%;
+  margin: auto;
+  margin-top:100px;
+}
+.building{
+   top:130px;
+}
+.building h1{
+   font-size: 5rem;
+}
+.footer-start{
+   font-size: 4rem;
+}
+.footer,.list, .list + p{
+   display: none;
+}
+.close{
+   width: 70px;
+   height: 70px;
+}
+.close img{
+   width: 30px;
+}
+.link-c{
+   width: 100px;
+   height: 100px;
+}
+.tit h1{
+   font-size: 7rem;
+}
+.tilt{
+   display: none;
+}
+}
+@media screen  and (min-width:1200px){
+   .count{
+    position: absolute;
+    top: 100px;
+    right: 90px;
+   }
+   .img.active{
+      top: 60%;
+  }
+  .end{
+   margin-right: 90px;
+}
+   
+}
+
+
