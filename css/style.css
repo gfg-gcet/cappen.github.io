@@ -234,7 +234,7 @@ body{
     height: 100%;
     z-index: 666666999;
     background-image: linear-gradient(rgb(236, 120, 120),rgb(236, 120, 120),rgb(54, 54, 209));
-    opacity: 0.9;
+    opacity: 0;
     transition: 1s  ease-in-out;
     clip-path: circle(0% at 100% 100%);
 }
@@ -262,7 +262,6 @@ body{
     display: none;
 }
 .secta.active{
-    top: 0;
     max-height: 100%;
     display: block;
 }
