@@ -8,8 +8,8 @@
       text-align: center;
    }
    .text-box h1{
-      font-size: 5rem;
-      line-height: 4rem;
+      font-size: 6rem;
+      line-height: 5rem;
    }
    .hero-footer{
       flex-direction: column;
@@ -30,7 +30,8 @@
       font-size: 4rem;
    }
   .nav-box .slide{
-      font-size: 3rem;
+      font-size: 4rem;
+      padding: 15px;
    }
    .link-c.active{
       transform: scale(0);
