@@ -256,7 +256,7 @@ body{
     z-index: 6666686;
     background-color: #000;
     transition: 1s ease-in-out;
-    opacity: 0;
+    display: none;
 }
 .secta::-webkit-scrollbar{
     display: none;
@@ -264,7 +264,7 @@ body{
 .secta.active{
     top: 0;
     max-height: 100%;
-    opacity: 1;
+    display: block;
 }
 .sect-img{
     padding-top: 180px;
