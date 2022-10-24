@@ -14,12 +14,7 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-#non{
-    overflow-x: hidden;
-}
-body::-webkit-scrollbar{
-    display: none;
-}
+
 .hero h1{
     font-family: 'Bodoni Moda',serif;
     font-size: 18rem;
@@ -266,6 +261,7 @@ body::-webkit-scrollbar{
 .secta.active{
     top: 0;
     max-height: 100%;
+    opacity: 1;
 }
 .sect-img{
     padding-top: 180px;
