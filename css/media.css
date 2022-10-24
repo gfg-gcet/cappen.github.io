@@ -1,4 +1,7 @@
 @media screen  and (max-width:1200px){
+   body{
+      overflow-x: hidden;
+   }
    .text-box{
       font-size: 5rem;
       line-height: 4rem;

@@ -14,7 +14,10 @@ body{
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
-
+#non{
+    overflow-y: visible;
+    overflow-x: hidden;
+}
 .hero h1{
     font-family: 'Bodoni Moda',serif;
     font-size: 18rem;
