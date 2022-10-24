@@ -36,6 +36,7 @@ navi.addEventListener("mouseover", function(e){
      sect.classList.toggle("active")
   }
 })
+
 const lines =document.querySelectorAll(".line")
 window.addEventListener("scroll", function(){
   lines.forEach(function(line){
@@ -48,16 +49,16 @@ window.addEventListener("scroll", function(){
   let expertHeight=expert.getBoundingClientRect().top
   if(this.window.innerHeight>linkHeight+100){
     navi.classList.add("active")
-    document.body.style.backgroundColor="#fff"
   }
   else{
-     document.body.style.backgroundColor="#000"
+    navi.classList.remove("active")
   }
   if(this.window.innerHeight>expertHeight-100){
     document.body.style.backgroundColor="#000"
     expert.classList.add("active")
   }
 })
+
 navi.addEventListener("mouseout", function(e){
   let id=e.target.dataset.id
   if(id){
